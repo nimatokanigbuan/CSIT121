@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #daa8b4; 
+    color: #5f0404; 
+
+header {
+    background-color: #020530; 
+    color: white; 
+    text-align: center;
+}
+
+article {
+    font-family: 'Times New Roman', Times, serif; 
+    color: #000; 
+    border: 2px solid #9a44b4;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    color: #3a0909; 
+}
