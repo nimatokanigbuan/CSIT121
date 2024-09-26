@@ -1,0 +1,7 @@
+
+  body {
+    background-image: url('backgroundimage.svg');
+    background-size: cover; 
+    font-family: Arial, sans-serif; 
+    color: #333;
+}
