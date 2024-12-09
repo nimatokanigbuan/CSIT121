@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sources</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./lab10.css">
+
+</head>
+<body>
+    <nav id="global-nav">
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="nav-links">
+            <a href="../home/homepage.html">Homepage</a>
+            <a href="../lab03/index.html">HTML Basics</a>
+            <a href="../lab05/index.html">Layout Lab</a>
+            <a href="../lab06/index.html">UI/UX Evaluation</a>
+            <a href="../lab07/tierlist.html">Tables & Forms</a>
+            <a href="../lab08/happygif.html">Visual Media</a>
+            <a href="../lab10/index.html">Standards Presentation</a>
+        </div>
+    </nav>  
+
+    <header>
+        <h1>Sources</h1>
+    </header>
+
+         <nav id="lab-nav">
+            <a href="index.html">Home</a>
+            <a href="description.html">Why it's Important?</a>
+            <a href="how.html">How it's Used</a>
+            <a class="active" href="sources.html">Sources</a>
+        </nav>
+
+    <main>
+        <h2>My Sources</h2>
+        <ul>
+            <li>Grant, K. J. (2018, August 31). Intro to micropub. Omnibear. https://omnibear.com/getting-started/micropub/</li>
+            <li>Getting started on WordPress. IndieWeb. (n.d.). https://indieweb.org/Getting_Started_on_WordPress </li>
+            <li>World Wide Web Consortium (W3C). (2017a, May 23). Micropub. W3C. https://www.w3.org/TR/micropub/ </li>
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

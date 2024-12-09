@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="lab7.css">
+</head>
+<body>
+    <nav id="global-nav">
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="nav-links">
+            <a href="../home/homepage.html">Homepage</a>
+            <a href="../lab03/index.html">HTML Basics</a>
+            <a href="../lab05/index.html">Layout Lab</a>
+            <a href="../lab06/index.html">UI/UX Evaluation</a>
+            <a href="../lab07/tierlist.html">Tables & Forms</a>
+            <a href="../lab08/happygif.html">Visual Media</a>
+            <a href="../lab10/index.html">Standards Presentation</a>
+        </div>
+    </nav>  
+
+    <nav>
+        <a href="tierlist.html">Tier List</a> 
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <h1>Contact Me</h1>
+
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4"></textarea>
+
+ 
+        <label for="favoriteTier">What is your favorite type of hero</label>
+        <select id="favoriteTier" name="favoriteTier">
+            <option value="powerhouse">Powerhouse Hero</option>
+            <option value="outofcommision">Out of Commission Hero</option>
+            <option value="versatile">Versatile Hero</option>
+            <option value="support">Support Hero</option>
+            <option value="stealth">Stealthy Hero</option>
+        </select>
+
+        <label>Rate our Tier List:</label>
+        <input type="radio" id="rateW" name="rate" value="w-list">
+        <label for="rateW">W List</label>
+        <input type="radio" id="rateL" name="rate" value="l-list">
+        <label for="rateL">L List</label>
+        
+
+
+     <label>Have you watched My Hero Academia?</label><br>
+    <input type="radio" id="have" name="watch" value="yes">
+    <label for="have">Yes</label>
+    <input type="radio" id="havenot" name="watch" value="no">
+    <label for="havenot">No</label><br><br>
+
+    <input type="submit" value="Submit">
+    </form>
+   
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script> 
+</body>
+</html>

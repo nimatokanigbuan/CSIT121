@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Number 1 - A GIF</title>
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+<body>
+
+<nav id="global-nav">
+    <div class="hamburger" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="nav-links">
+        <a href="../home/homepage.html">Homepage</a>
+        <a href="../lab03/index.html">HTML Basics</a>
+        <a href="../lab05/index.html">Layout Lab</a>
+        <a href="../lab06/index.html">UI/UX Evaluation</a>
+        <a href="../lab07/tierlist.html">Tables & Forms</a>
+        <a href="../lab08/happygif.html">Visual Media</a>
+        <a href="../lab10/index.html">Standards Presentation</a>
+    </div>
+</nav>  
+
+<header>
+    <h1>Excited GIF</h1>
+</header>
+
+<nav id="lab-nav">
+    <a href="happygif.html">GIF Image</a>
+    <a href="ricejpg.html">JPG Image</a>
+    <a href="meatpng.html">PNG Image</a> 
+</nav>
+
+    <header>
+        <h1>Excited GIF</h1>
+    </header>
+    <main>
+        <h2>Description of the Image</h2>
+        <img src="images/happypractice.gif" alt="very expressive simley face" style="width:100px;height:100px;">
+        
+        <section class="left-aligned">
+            <h3>File Type Information</h3>
+            <p>This image is a GIF. A GIF is a raster file format designed for relatively basic images that appear mainly on the internet.</p>
+        </section>
+        
+        <section class="left-aligned">
+            <h3>Why I Chose This Image</h3>
+            <p>I chose this image because when I looked up gifs on google it was the first one that caught my eye.</p>
+        </section>
+
+        <section class="left-aligned">
+            <h3>Source</h3>
+            <p>This image is from Wikimedia Commons.</p>
+            <p>Image Source: <a href="https://commons.wikimedia.org/wiki/File:Adam7_make_awesome_face.gif" target="_blank">My Source</a></p>
+        </section>
+    </main>
+
+    <section class="left-aligned">
+        <h3>Reflection</h3>
+        <p>This week’s lab was calm, I was able to learn how interactivity is added to webpages using JavaScript. I also saw some cool CSS animations that would make a website more engaging. Integrating code into my site allowed me to experiment by modifying it, changing elements, and adapting it to match what I already had. It also improved my problem-solving skills which will help create my own code from scratch next time.</p>
+    </section>    
+
+    <footer>
+        <p>&copy; 2024 Nimat Okanigbuan</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>

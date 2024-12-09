@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Portfolio</title>
+    <link rel="stylesheet" href="../style.css"> 
+</head>
+<body>
+    <nav id="global-nav">
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="nav-links">
+            <a href="../home/homepage.html">Homepage</a>
+            <a href="../lab03/index.html">HTML Basics</a>
+            <a href="../lab05/index.html">Layout Lab</a>
+            <a href="../lab06/index.html">UI/UX Evaluation</a>
+            <a href="../lab07/tierlist.html">Tables & Forms</a>
+            <a href="../lab08/happygif.html">Visual Media</a>
+            <a href="../lab10/index.html">Standards Presentation</a>
+        </div>
+    </nav>    
+    
+    <header>
+        <h1>Welcome to My Portfolio!</h1>
+        <p>A showcase of my Web Development Journey</p>
+    </header>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>Hi there! My name is <strong>Nimat Okanigbuan</strong>, an 18-year-old student from Nigeria. I love enjoying new stories, whether through games, books or TV shows, and my all-time favorite is <em>Avatar: The Last Airbender</em>.</p>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <p>I'm currently a sophomore majoring in <strong>Information Technology</strong>. I'm eager to expand my knowledge and apply my skills in meaningful ways.</p>
+        </section>
+        <section>
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Reading and Exploring different Genres</li>
+                <li>Editing Videos</li>
+                <li>Trying recepies from Pinterest and TikTok</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Explore My Work</h2>
+            <p>Check out my Favorite Lab from this Semester: A My Hero themed page with a tierlist ranking some of my favorite chracters!</p>
+<a href="../lab07/tierlist.html" target="_blank" style="color: #ff6f91; text-decoration: underline;">Visit the Tierlist Page</a>
+
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Nimat Okanigbuan. All rights reserved.</p>
+    </footer>
+  
+  <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website Evaluation for WimpyKid.com">
+    <title>Website Evaluation - WimpyKid.com</title>
+    <link rel="stylesheet" href="../style.css">
+    
+</head>
+<body>
+    <nav id="global-nav">
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="nav-links">
+            <a href="../home/homepage.html">Homepage</a>
+            <a href="../lab03/index.html">HTML Basics</a>
+            <a href="../lab05/index.html">Layout Lab</a>
+            <a href="../lab06/index.html">UI/UX Evaluation</a>
+            <a href="../lab07/tierlist.html">Tables & Forms</a>
+            <a href="../lab08/happygif.html">Visual Media</a>
+            <a href="../lab10/index.html">Standards Presentation</a>
+        </div>
+    </nav>  
+
+    <header>
+        <h1>Website Evaluation - WimpyKid.com</h1>
+    </header>
+
+    <section>
+        <h2>Website Information</h2>
+        <dl>
+            <dt>URL of the website:</dt>
+            <dd><a href="https://wimpykid.com/" target="_blank">https://wimpykid.com/</a></dd>
+
+            <dt>Name of the website:</dt>
+            <dd>WimpyKid.com</dd>
+
+            <dt>Target audience:</dt>
+            <dd>Fans of the "Diary of a Wimpy Kid" book series</dd>
+        </dl>
+    </section>
+
+    <section>
+        <h2>Site Organization</h2>
+        <p>The site is organized with a top navigation bar that takes users to main sections like Home, FAQ, and Movies. There is also an additional navigation bar for different possible users, like For Teachers, Musical, and Get in Touch. The content is laid out in a single-column format, and links to related content are placed throughout the site. On mobile, it uses a collapsed menu.</p>
+    </section>
+
+    <section>
+        <h2>CRAP Design Principle</h2>
+        <p>This website best uses the principle of <span class="highlight">contrast</span>. Most of the text is black and white, but important words are bolded. Bright colors are used for headings to stand out against the black-and-white background. The font is consistently thick, which enhances readability.</p>
+    </section>
+
+    <section>
+        <h2>Accessibility Audit Score</h2>
+        <p>According to the accessibility checker, the site scored <strong>76</strong> out of 100.</p>
+    </section>
+
+    <section>
+        <h2>Site Evaluation</h2>
+        <dl>
+            <dt>Effectiveness:</dt>
+            <dd>The site is effective, as most actions and information can be found on the first page.</dd>
+
+            <dt>Efficiency:</dt>
+            <dd>While efficient, the vertical stacking of information requires some scrolling to locate certain content. It is organized by recency, which can make finding older information more time-consuming.</dd>
+            <dd>This website cannot be fully accessed using only a keyboard, which could hinder accessibility for users who rely on keyboard navigation.</dd>
+
+            <dt>Engagement:</dt>
+            <dd>The site is both professional and kid-friendly. It's appropriate for its target audience and engaging.</dd>
+            <dd>I think the site is really cool and I remember thinking the same thing when I was younger.</dd>
+        </dl>
+    </section>
+
+    <section>
+        <h2>Recommendation</h2>
+        <p>One recommendation would be to add anchors to help users jump to specific sections on long pages, improving navigation.</p>
+    </section>
+
+    <section>
+        <h2>Screenshot</h2>
+        <p>Below is a screenshot of the site with accessibility features:</p>
+        <img src="images/wimpyscreenshot.png" alt="Screenshot of WimpyKid.com showing accessibility features" width="550">
+
+    </section>
+ <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+ </script>  
+    
+</body>
+</html>
